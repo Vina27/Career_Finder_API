@@ -1,6 +1,6 @@
 class Job < ApplicationRecord
-    has_many :users, through: :list 
+    has_many :lists 
+    has_many :users, through: :lists 
     belongs_to :user 
     belongs_to :category 
-    belongs_to :list 
 end

@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-    has_many :jobs 
-    has_many :jobs, through: :list 
+    has_many :lists, dependent: :destroy 
+    has_many :jobs, through: :lists 
 end
