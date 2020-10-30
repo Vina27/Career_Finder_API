@@ -9,7 +9,7 @@ class ListsController < ApplicationController
         render json: @list
     end 
 
-    private 
+    # private 
 
     # def list_params
     #     params.permit(:job_id, :user_id)
