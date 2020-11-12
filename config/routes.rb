@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   resources :lists 
   resources :jobs 
   resources :categories 
+  
 end
